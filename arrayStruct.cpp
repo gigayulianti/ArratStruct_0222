@@ -21,4 +21,13 @@ int main() {
     cout << "Desa : " ;
     getline(cin , mhs.alamat.desa);
     cout << "Kota : " ;
-    
+    getline(cin , mhs.alamat.kota);
+    cout << "Umur : " ;
+    cout << endl;
+    // tampilkan 
+    cout << "Menampilkan Data" << endl;
+    cout << " Nama : " << mhs.nama << endl;
+    cout << " Alamat : " << mhs.alamat.desa << endl;
+    cout << " Alamat : " << mhs.alamat.kota << endl;
+    cout << " Umur : " << mhs.umur << endl;
+}
