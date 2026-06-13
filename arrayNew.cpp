@@ -13,4 +13,19 @@ int main() {
     aku[1] = 200;
     cout << endl;
     cout << "Data pada index 1 = " << aku[1] << endl;
+    // Mengisis Satu per Satu
+    cout << "Data index 0 = ";
+    cin >> kamu[0];
+    cout << "Data index 1 = ";
+    cin >> kamu[1];
+    cout << "Data ondex 2 = ";
+    cin >> kamu[2];
+    cout << "Data index 3 = ";
+    cin >> kamu[3];
+    cout << "Data index 4 = ";
+    cin >> kamu[4];
+    cout << endl;
+    // Menampilkan Satu per Satu
+    cout << "Data Pertama = " << kamu[0] << endl;
+    cout << "Data Kedua = " << kamu[1] << endl;
     
